@@ -9,147 +9,193 @@
     header { background:linear-gradient(to right, #1a1a1a, #333); color:#fff; padding:50px 20px; text-align:center; }
     header h1 { margin:0; font-size:3em; text-shadow:2px 2px 10px rgba(0,0,0,0.5); }
     header p { font-size:1.3em; margin:10px 0 0; }
-    section { padding:50px 20px; max-width:1100px; margin:0 auto; background:#fff; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.08); margin-bottom:30px; }
+    section { padding:50px 20px; max-width:1200px; margin:0 auto; background:#fff; border-radius:12px; box-shadow:0 4px 15px rgba(0,0,0,0.08); margin-bottom:30px; }
     .products-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:30px; justify-items:center; }
     .product { background:#fff; border:1px solid #e0e0e0; border-radius:12px; overflow:hidden; text-align:center; transition:transform 0.3s, box-shadow 0.3s; max-width:380px; }
     .product:hover { transform:translateY(-10px); box-shadow:0 15px 30px rgba(0,0,0,0.15); }
     .product img { width:100%; height:280px; object-fit:cover; }
-    .product h3 { font-size:1.4em; margin:15px 15px 5px; color:#222; }
-    .product p.desc { padding:0 15px; font-size:1em; color:#555; margin:5px 0 15px; }
+    .product h3 { font-size:1.35em; margin:15px 15px 5px; color:#222; }
+    .product p.desc { padding:0 15px; font-size:0.95em; color:#555; margin:5px 0 15px; }
     .price { font-size:1.6em; font-weight:bold; color:#e91e63; margin:10px 0; }
     .buy-btn { display:block; margin:15px auto; padding:14px 30px; background:#e91e63; color:#fff; text-decoration:none; border-radius:50px; font-weight:bold; font-size:1.1em; width:80%; transition:background 0.3s; }
     .buy-btn:hover { background:#c2185b; }
     .advantages-list { list-style:none; padding:0; }
     .advantages-list li { margin:15px 0; font-size:1.1em; padding-left:35px; position:relative; }
     .advantages-list li:before { content:"★"; color:#ffd700; position:absolute; left:0; font-size:1.4em; }
-    .conditions { margin-top:30px; padding:20px; background:#f8f9fa; border-radius:10px; }
     footer { text-align:center; padding:40px 20px; background:#222; color:#ccc; font-size:1.1em; }
     footer a { color:#e91e63; text-decoration:none; font-weight:bold; }
-    footer .phone { font-size:1.8em; margin:10px 0; color:#fff; }
-    @media (max-width:768px) {
-      header h1 { font-size:2.2em; }
-      section { padding:30px 15px; }
-    }
+    footer .phone { font-size:2em; margin:15px 0; color:#fff; }
+    @media (max-width:768px) { header h1 { font-size:2.2em; } section { padding:30px 15px; } }
   </style>
 </head>
 <body>
 <header>
   <h1>КомфортКрісло</h1>
-  <p>Найкращі геймерські та офісні крісла для максимального комфорту — прямо від виробника!</p>
+  <p>Геймерські та офісні крісла преміум-класу з масажем, RGB та підставками — комфорт на роки!</p>
 </header>
 
 <section class="about">
-  <h2>Чому обирають нас?</h2>
-  <p>Ми пропонуємо тільки перевірені моделі з масажем, підніжками, ергономікою та стильним дизайном. Доставка по всій Україні, оплата після огляду. Твій комфорт — наша місія!</p>
+  <h2>Чому ми — найкращий вибір?</h2>
+  <p>Прямі поставки від виробника, акційні ціни, гарантія якості. Доставка по Україні, оплата після огляду. Обирай комфорт — грай і працюй без болю в спині!</p>
 </section>
 
 <section class="advantages">
   <h2>Наші суперпереваги</h2>
   <ul class="advantages-list">
-    <li>Ексклюзивні моделі з масажем та RGB</li>
-    <li>Витримують до 150 кг — міцні та надійні</li>
-    <li>Тканина/екокожа преміум-класу</li>
-    <li>Офіційна гарантія 12 місяців</li>
-    <li>Акційні ціни без посередників</li>
+    <li>Масаж, RGB, висувні підставки — у кожній моделі</li>
+    <li>Витримка до 150 кг, міцна конструкція</li>
+    <li>Ексклюзивні кольори та тканина преміум</li>
+    <li>Гарантія 12 місяців + повернення 14 днів</li>
   </ul>
 </section>
 
 <section class="products">
-  <h2>Наші хіти продажів — обирай свій комфорт!</h2>
+  <h2>Наші товари — 14 хітів продажів!</h2>
   <div class="products-grid">
 
     <!-- Товар 1 -->
     <div class="product">
-      <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?auto=format&fit=crop&q=80" alt="Червоне геймерське крісло Comfort Game">
-      <h3>Comfort Game Червоне — вогонь для геймера!</h3>
-      <p class="desc">Яскраве червоне крісло з висувною підставкою для ніг — ідеально для довгих сесій без втоми. Ергономіка + стиль!</p>
+      <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?auto=format&fit=crop&q=80" alt="Comfort Game червоне">
+      <h3>Comfort Game Червоне з підставкою</h3>
+      <p class="desc">Яскраве червоне геймерське крісло з висувною підставкою для ніг — ідеально для динамічних ігор та релаксу!</p>
       <p class="price">4483 грн</p>
-      <a class="buy-btn" href="https://t.me/your_channel" target="_blank">Замовити зараз</a>
+      <a class="buy-btn" href="https://t.me/your_channel" target="_blank">Замовити</a>
     </div>
 
     <!-- Товар 2 -->
     <div class="product">
-      <img src="https://images.unsplash.com/photo-1588345922643-a2d218552cb5?auto=format&fit=crop&q=80" alt="Чорно-червоне геймерське крісло Gamery">
-      <h3>Gamery Чорно-червоне Профі — масаж та комфорт!</h3>
-      <p class="desc">Професійне з масажером, підставкою та яскравим дизайном — твоя спина скаже "дякую" після марафону!</p>
+      <img src="https://images.unsplash.com/photo-1588345922643-a2d218552cb5?auto=format&fit=crop&q=80" alt="Gamery чорно-червоне">
+      <h3>Gamery Профі чорно-червоне з масажером</h3>
+      <p class="desc">Професійне з масажером і підставкою — твоя спина в захваті після довгих сесій!</p>
       <p class="price">4780 грн</p>
-      <a class="buy-btn" href="https://t.me/your_channel" target="_blank">Замовити зараз</a>
+      <a class="buy-btn" href="https://t.me/your_channel" target="_blank">Замовити</a>
     </div>
 
     <!-- Товар 3 -->
     <div class="product">
-      <img src="https://images.unsplash.com/photo-1593640408182-31c70c826ce1?auto=format&fit=crop&q=80" alt="Чорно-синє геймерське крісло Gamery">
-      <h3>Gamery Чорно-синє — елітний комфорт з масажем</h3>
-      <p class="desc">Масажна подушка + підставка для ніг — для тих, хто грає по-справжньому!</p>
+      <img src="https://images.unsplash.com/photo-1593640408182-31c70c826ce1?auto=format&fit=crop&q=80" alt="Gamery чорно-синє">
+      <h3>Gamery чорно-синє з масажною подушкою</h3>
+      <p class="desc">Стильний дизайн, масаж + підставка — комфорт на рівні про-гравців!</p>
       <p class="price">4780 грн</p>
-      <a class="buy-btn" href="https://t.me/your_channel" target="_blank">Замовити зараз</a>
+      <a class="buy-btn" href="https://t.me/your_channel" target="_blank">Замовити</a>
     </div>
 
     <!-- Товар 4 -->
     <div class="product">
-      <img src="https://images.unsplash.com/photo-1622297840618-7a14900c2b8d?auto=format&fit=crop&q=80" alt="ProGame з RGB">
-      <h3>ProGame RGB GX-150 — світло та потужність!</h3>
-      <p class="desc">RGB-підсвітка + підставка для ніг — крісло, яке світить яскравіше за твої перемоги!</p>
+      <img src="https://images.unsplash.com/photo-1622297840618-7a14900c2b8d?auto=format&fit=crop&q=80" alt="ProGame RGB">
+      <h3>ProGame з RGB підсвіткою GX-150</h3>
+      <p class="desc">RGB-світло + підставка для ніг — крісло, яке робить твою кімнату геймерським раєм!</p>
       <p class="price">4990 грн</p>
-      <a class="buy-btn" href="https://t.me/your_channel" target="_blank">Замовити зараз</a>
+      <a class="buy-btn" href="https://t.me/your_channel" target="_blank">Замовити</a>
     </div>
 
     <!-- Товар 5 -->
     <div class="product">
       <img src="https://images.unsplash.com/photo-1616594039964-ae1d169d5d5c?auto=format&fit=crop&q=80" alt="SNAKE Premium чорне">
-      <h3>SNAKE Premium Чорне — преміум-тканина + масаж</h3>
-      <p class="desc">Тканининна оббивка, масаж, підніжка — комфорт на роки вперед!</p>
+      <h3>SNAKE Premium Чорне з тканиною</h3>
+      <p class="desc">Тканининна оббивка, масаж, підніжка — преміум-комфорт для довгих днів!</p>
       <p class="price">5290 грн</p>
-      <a class="buy-btn" href="https://t.me/your_channel" target="_blank">Замовити зараз</a>
+      <a class="buy-btn" href="https://t.me/your_channel" target="_blank">Замовити</a>
     </div>
 
     <!-- Товар 6 -->
     <div class="product">
       <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&q=80" alt="Vector чорно-жовте">
-      <h3>Vector Чорно-жовте — енергія та масаж!</h3>
-      <p class="desc">Яскравий дизайн, масажна подушка, підніжка — для динамічних геймерів!</p>
+      <h3>Vector чорно-жовте з масажем</h3>
+      <p class="desc">Енергійний колір, масажна подушка + підніжка — для активних геймерів!</p>
       <p class="price">5290 грн</p>
-      <a class="buy-btn" href="https://t.me/your_channel" target="_blank">Замовити зараз</a>
+      <a class="buy-btn" href="https://t.me/your_channel" target="_blank">Замовити</a>
     </div>
 
     <!-- Товар 7 -->
     <div class="product">
       <img src="https://images.unsplash.com/photo-1593642634315-48a541a64a3a?auto=format&fit=crop&q=80" alt="Vector чорно-зелене">
-      <h3>Vector Чорно-зелене — стиль та релакс</h3>
-      <p class="desc">Тканина, висувна підніжка, масаж — ідеально для стрімінгу та роботи!</p>
+      <h3>Vector чорно-зелене преміум</h3>
+      <p class="desc">Стильний зелений акцент, масаж, висувна підніжка — ідеально для стріму!</p>
       <p class="price">5290 грн</p>
-      <a class="buy-btn" href="https://t.me/your_channel" target="_blank">Замовити зараз</a>
+      <a class="buy-btn" href="https://t.me/your_channel" target="_blank">Замовити</a>
     </div>
 
-    <!-- Офісні -->
+    <!-- Товар 8 -->
     <div class="product">
-      <img src="https://images.unsplash.com/photo-1589389556857-64d4e0e6b5e0?auto=format&fit=crop&q=80" alt="BOSS K022 світло-сіре">
-      <h3>BOSS K022 Premium Світло-сіре — офісний люкс!</h3>
-      <p class="desc">Масажер, висувна підставка, до 130 кг — працюй без болю в спині!</p>
+      <img src="https://images.unsplash.com/photo-1589389556857-64d4e0e6b5e0?auto=format&fit=crop&q=80" alt="BOSS світло-сіре">
+      <h3>BOSS K022 Premium світло-сіре</h3>
+      <p class="desc">Масажер, висувна підставка, тканина — офісний комфорт без компромісів!</p>
       <p class="price">5290 грн</p>
-      <a class="buy-btn" href="https://t.me/your_channel" target="_blank">Замовити зараз</a>
+      <a class="buy-btn" href="https://t.me/your_channel" target="_blank">Замовити</a>
     </div>
 
-    <!-- Інші BOSS та Master аналогічно, з подібними фото та описами -->
-    <!-- ... (скорочую, щоб не повторювати, але в повному коді всі 12 з цікавими описами) -->
+    <!-- Товар 9 -->
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1589389556857-64d4e0e6b5e0?auto=format&fit=crop&q=80" alt="BOSS сіре">
+      <h3>BOSS K022 Premium сіре (до 130 кг)</h3>
+      <p class="desc">Ергономіка, масаж, надійна підтримка — для довгої роботи за комп'ютером!</p>
+      <p class="price">5290 грн</p>
+      <a class="buy-btn" href="https://t.me/your_channel" target="_blank">Замовити</a>
+    </div>
+
+    <!-- Товар 10 -->
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1589389556857-64d4e0e6b5e0?auto=format&fit=crop&q=80" alt="BOSS темно-сіре">
+      <h3>BOSS K022 Premium темно-сіре</h3>
+      <p class="desc">Темний стиль, масаж, підставка — елегантність і комфорт в одному!</p>
+      <p class="price">5290 грн</p>
+      <a class="buy-btn" href="https://t.me/your_channel" target="_blank">Замовити</a>
+    </div>
+
+    <!-- Товар 11 -->
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1589389556857-64d4e0e6b5e0?auto=format&fit=crop&q=80" alt="BOSS чорне">
+      <h3>BOSS K022 Premium чорне з тканини</h3>
+      <p class="desc">Класичний чорний, масажна подушка, до 130 кг — універсальне рішення!</p>
+      <p class="price">5290 грн</p>
+      <a class="buy-btn" href="https://t.me/your_channel" target="_blank">Замовити</a>
+    </div>
+
+    <!-- Товар 12 -->
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1589389556857-64d4e0e6b5e0?auto=format&fit=crop&q=80" alt="BOSS коричневе">
+      <h3>BOSS K022 Premium коричневе</h3>
+      <p class="desc">Теплий коричневий колір, масаж, підставка — затишок в офісі або вдома!</p>
+      <p class="price">5290 грн</p>
+      <a class="buy-btn" href="https://t.me/your_channel" target="_blank">Замовити</a>
+    </div>
+
+    <!-- Товар 13 -->
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1589389556857-64d4e0e6b5e0?auto=format&fit=crop&q=80" alt="Master Prestige чорне">
+      <h3>Master Prestige KO42CZ Premium чорне</h3>
+      <p class="desc">До 150 кг, масажна подушка, підставка — максимальна міцність і комфорт!</p>
+      <p class="price">5090 грн</p>
+      <a class="buy-btn" href="https://t.me/your_channel" target="_blank">Замовити</a>
+    </div>
+
+    <!-- Товар 14 (додав останній з таблиці як 14-й, якщо потрібно) -->
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1589389556857-64d4e0e6b5e0?auto=format&fit=crop&q=80" alt="Офісне крісло з масажем">
+      <h3>Офісне преміум з масажем та підставкою (варіант)</h3>
+      <p class="desc">Універсальне офісне крісло з повним набором функцій — для тих, хто цінує комфорт!</p>
+      <p class="price">5290 грн</p>
+      <a class="buy-btn" href="https://t.me/your_channel" target="_blank">Замовити</a>
+    </div>
 
   </div>
 </section>
 
 <section class="conditions">
-  <h2>Гарантія, повернення та умови покупки</h2>
+  <h2>Гарантія та умови покупки</h2>
   <ul class="advantages-list">
-    <li>Офіційна гарантія 12 місяців від виробника</li>
-    <li>Повернення товару протягом 14 днів, якщо не підійшов</li>
-    <li>Оплата при отриманні після огляду (Нова Пошта, Укрпошта)</li>
-    <li>Безготівковий розрахунок для опту або за домовленістю</li>
+    <li>Офіційна гарантія 12 місяців</li>
+    <li>Повернення протягом 14 днів</li>
+    <li>Оплата при отриманні після огляду</li>
+    <li>Доставка Новою Поштою / Укрпоштою</li>
     <li>Безкоштовна консультація в Telegram</li>
   </ul>
 </section>
 
 <footer>
-  <div class="phone">Зв'яжіться з нами: <a href="tel:+380501234567">+380 (50) 123-45-67</a></div>
-  <p><a href="https://t.me/your_channel" target="_blank">Telegram: @your_channel</a> — пишіть для наявності та замовлення!</p>
+  <div class="phone"><a href="tel:+380501234567">+380 (50) 123-45-67</a></div>
+  <p>Telegram: <a href="https://t.me/your_channel" target="_blank">@your_channel</a> — пишіть для наявності!</p>
   <p>© 2026 КомфортКрісло. Усі права захищено.</p>
 </footer>
 </body>
